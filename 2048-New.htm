@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="2048-New.css">
+    <title>2048 Game</title>
+</head>
+
+<body>
+    <div class="bor">
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <p class="title">2048 Game</p>
+                <p>Join the numbers and get to the 2048 tile!</p>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="score" style="margin-left: 40%;">Score:<br><span id="scor"
+                                style="margin-left: 32%;"></span>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p class="score" style="margin-right: 10%;">Best:<br><span id="Best"
+                                style="margin-left: 32%;"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" row">
+                    <button class="btn" onClick="window.location.reload()">New Game</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="winLoose"></div>
+        <br>
+        <div class="row">
+            <div id="board"></div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <h3 id="expl">HOW TO PLAY<span>: Use your arrow keys to move the tiles.
+                    Tiles with the same number merge into one when
+                    they touch. Add them up to reach 2048!</span></h3>
+        </div>
+        <div class="card-footer"></div>
+    </div>
+</body>
+<script src="2048-New.js"></script>
+
+</html>

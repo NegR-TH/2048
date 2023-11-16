@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 3, 3);
+}
+
+.bor {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+p.title {
+    font-size: 3rem;
+    text-shadow: 2px 2px wheat;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    /* margin-top: 3px; */
+}
+
+.btn {
+    color: rgb(37, 3, 3);
+    border-radius: 3rem;
+    height: 6rem;
+    width: 6rem;
+    background-color: rosybrown;
+    margin-left: 32%;
+    margin-top: 2%;
+}
+
+.btn:hover {
+    color: rgb(134, 106, 70);
+    background-color: rgb(72, 5, 33);
+}
+
+.score {
+    color: rgb(37, 3, 3);
+    border-radius: 2px;
+    height: 3rem;
+    width: 4rem;
+    background-color: rosybrown;
+    padding-left: 10%;
+}
+
+#board {
+    height: 100%;
+    width: 100%;
+}
+
+#board tr td {
+    background-color: rgba(89, 37, 37, 0.541);
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 7rem;
+    width: 7rem;
+    text-align: center;
+    margin-left: 4rem;
+    font-size: 4rem;
+}
+
+.gap-n {
+    gap: 7rem !important;
+}
+
+#expl {
+    color: rosybrown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    padding-right: 4rem;
+}
+
+#winLoose {
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: -21px;
+    /* margin-bottom: -12px; */
+}
